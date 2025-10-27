@@ -1,52 +1,23 @@
-🐍 Snake Game (Python Turtle)
+# 🐍 Snake Game (Python Turtle)
 
-A simple yet fun Snake Game built using the turtle graphics library in Python.
+A simple classic **Snake Game** built with Python’s `turtle` module.
 
-🎮 Features
+### 🎮 Features
+- Smooth movement & score tracking  
+- Random food placement  
+- Game Over messages 💀  
+- Optional custom background (`snake-background.gif`)
 
-Move the snake with arrow keys (↑, ↓, ←, →)
+### ⚙️ Requirements
+- Python 3.8+  
+- Uses only built-in modules: `turtle`, `time`, `random`
 
-Eat apples to grow and increase your score
+### ▶️ Run the Game
+```bash
+python snake_game.py
+```
+---
+Use **arrow keys** to move the snake and collect food — don’t hit the walls or yourself!
 
-Background image support (.gif format)
-
-Fixed window size (700×600)
-
-Game over when hitting walls or itself
-
-Animated "🔥 GAME OVER 🔥" message
-
-🖼️ Background Setup
-
-If you want to use a custom background image:
-
-Place your .gif file (e.g., background.gif) in the same folder as the Python file.
-
-Make sure the image size matches 700×600 pixels.
-
-The game will automatically load it; if not found, a plain green background will be used instead.
-
-🚀 How to Run
-python snake.py
-
-
-Make sure you have Python 3.x installed.
-
-📦 Requirements
-
-No external dependencies — only Python’s built-in turtle, time, and random libraries are used.
-
-🧠 Future Improvements
-
-Add restart button (R key)
-
-Add sound effects for eating and collision
-
-Add score persistence and high scores
-
-Add dynamic speed increase as the snake grows
-
-👩‍💻 Author
-
-Developed by Hosna — for educational and fun purposes!
-You’re free to fork, modify, and enhance it.
+---
+Made with 💚 by Hosna
